@@ -1,46 +1,168 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/favicon.png">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <title>igraph &ndash; Network analysis software</title>
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    </head>
-    <body>
+    <!-- Custom styles for this template -->
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements 
+         and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div>
+      <a href="https://github.com/igraph/igraph"><img style="position: absolute;
+                                      top:50px; right: 0; border: 0;" 
+       src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"
+                                                      alt="Fork me on GitHub">
+      </a>
+    </div>
+  
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle"
+                  data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="img/igraph2.svg" width=25>
+            igraph
+          </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="">Docs</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Downloads</a></li>
+            <li><a href="">Get help</a></li>
+            <li><a href="">Contribute</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Search"
+                     class="form-control" size="25">
             </div>
-     
-                {{ content }}
+            <button type="submit" class="btn btn-success">
+              <span class="glyphicon glyphicon-search"></span></button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
+    <div class="container">
+      <div class=="row">
+        <p class="lead">
+        </p>
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="page-header">
+          <h1 class="hidden-xs">
+            <img src="img/igraph2.svg"> igraph
+            <small>&ndash; The network analysis package</small>
+          </h1>
+          <h1 class="visible-xs">
+            igraph<br/>
+            <small>The network analysis package</small>
+          </h1>
+        </div>
+        <p>igraph is a multi-platform multi-language collection of
+           network analysis tools with the emphasis on efficiency, 
+           portablity and ease of use. igraph is open source and
+           free. Choose your programming language to get started! 
+        </p>
+        <div class="row">
+          <div class="col-xs-4">
+            <p>
+              <a href="#" class="thumbnail">
+                <img src="img/Rlogo.svg" class="img-responsive" alt="">
+              </a>
+            </p>
+            <p>
+              <button type="button" class="btn btn-primary btn-md hidden-xs">
+                <span class="glyphicon glyphicon-play"></span> 
+                Start with R
+              </button>            
+              <button type="button" class="btn btn-primary btn-md visible-xs">
+                <span class="glyphicon glyphicon-play"></span> 
+                Start
+              </button>            
+            </p>
           </div>
-        </div> <!-- /container -->
+          <div class="col-xs-4">
+            <p>
+              <a href="#" class="thumbnail">
+                <img src="img/python.svg"  class="img-responsive">
+              </a>
+            </p>
+            <p>
+              <button type="button" class="btn btn-primary btn-md hidden-xs">
+                <span class="glyphicon glyphicon-play"></span> 
+                Start with Python
+              </button>            
+              <button type="button" class="btn btn-primary btn-md visible-xs">
+                <span class="glyphicon glyphicon-play"></span> 
+                Start
+              </button>            
+            </p>
+          </div>
+          <div class="col-xs-4">
+            <p>
+              <a href="#" class="thumbnail">
+                <img src="img/clogo.svg" class="img-responsive">
+              </a>
+            </p>
+            <p>
+              <button type="button" class="btn btn-primary btn-md hidden-xs">
+                <span class="glyphicon glyphicon-play"></span> 
+                Start with C
+              </button>            
+              <button type="button" class="btn btn-primary btn-md visible-xs">
+                <span class="glyphicon glyphicon-play"></span> 
+                Start
+              </button>            
+            </p>
+          </div>
+        </div>
+      </div>
 
-    </body>
+    </div> <!-- /container -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6">
+        </div>
+        <div class="col-xs-6 text-right">
+          &copy; 2013 The igraph core team
+        </div>      
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>
