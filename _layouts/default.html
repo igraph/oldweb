@@ -11,8 +11,12 @@
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700'
+          rel='stylesheet' type='text/css'>
+    <link href="css/other.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements 
          and media queries -->
@@ -49,9 +53,9 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-left">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="">Docs</a></li>
+            <li><a href="">Learn</a></li>
             <li><a href="">News</a></li>
-            <li><a href="">Downloads</a></li>
+            <li><a href="">Download</a></li>
             <li><a href="">Get help</a></li>
             <li><a href="">Contribute</a></li>
           </ul>
@@ -68,30 +72,29 @@
     </div>
 
     <div class="container">
-      <div class=="row">
+      <div class="page-header">
+        <h1 class="hidden-xs">
+          <img src="img/igraph2.svg"> igraph
+          <small>&ndash; The network analysis package</small>
+        </h1>
+        <h1 class="visible-xs">
+            igraph<br/>
+          <small>The network analysis package</small>
+        </h1>
+      </div>
+      <div>
         <p class="lead">
+           igraph is a <strong>multi-language</strong> collection of
+           network analysis tools with the emphasis on
+           <strong>efficiency</strong>, <strong>portablity</strong>
+           and ease of use. igraph is <strong>open source</strong> and
+           free. Choose your programming language to get started!
         </p>
       </div>
     </div>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <div class="page-header">
-          <h1 class="hidden-xs">
-            <img src="img/igraph2.svg"> igraph
-            <small>&ndash; The network analysis package</small>
-          </h1>
-          <h1 class="visible-xs">
-            igraph<br/>
-            <small>The network analysis package</small>
-          </h1>
-        </div>
-        <p>igraph is a multi-platform multi-language collection of
-           network analysis tools with the emphasis on efficiency, 
-           portablity and ease of use. igraph is open source and
-           free. Choose your programming language to get started! 
-        </p>
         <div class="row">
           <div class="col-xs-4">
             <p>
@@ -99,16 +102,16 @@
                 <img src="img/Rlogo.svg" class="img-responsive" alt="">
               </a>
             </p>
-            <p>
-              <button type="button" class="btn btn-primary btn-md hidden-xs">
-                <span class="glyphicon glyphicon-play"></span> 
-                Start with R
-              </button>            
-              <button type="button" class="btn btn-primary btn-md visible-xs">
-                <span class="glyphicon glyphicon-play"></span> 
-                Start
-              </button>            
-            </p>
+            <button type="button"
+                    class="btn btn-primary btn-md hidden-xs centered">
+              <span class="glyphicon glyphicon-play"></span>
+                  Start with R
+            </button>
+            <button type="button"
+                    class="btn btn-primary btn-md visible-xs centered">
+              <span class="glyphicon glyphicon-play"></span>
+                  Start
+            </button>
           </div>
           <div class="col-xs-4">
             <p>
@@ -116,16 +119,16 @@
                 <img src="img/python.svg"  class="img-responsive">
               </a>
             </p>
-            <p>
-              <button type="button" class="btn btn-primary btn-md hidden-xs">
+              <button type="button"
+                      class="btn btn-primary btn-md hidden-xs centered">
                 <span class="glyphicon glyphicon-play"></span> 
                 Start with Python
               </button>            
-              <button type="button" class="btn btn-primary btn-md visible-xs">
+              <button type="button"
+                      class="btn btn-primary btn-md visible-xs centered">
                 <span class="glyphicon glyphicon-play"></span> 
                 Start
-              </button>            
-            </p>
+              </button>
           </div>
           <div class="col-xs-4">
             <p>
@@ -134,11 +137,13 @@
               </a>
             </p>
             <p>
-              <button type="button" class="btn btn-primary btn-md hidden-xs">
+              <button type="button"
+                      class="btn btn-primary btn-md hidden-xs centered">
                 <span class="glyphicon glyphicon-play"></span> 
                 Start with C
               </button>            
-              <button type="button" class="btn btn-primary btn-md visible-xs">
+              <button type="button"
+                      class="btn btn-primary btn-md visible-xs centered">
                 <span class="glyphicon glyphicon-play"></span> 
                 Start
               </button>            
