@@ -1,0 +1,26 @@
+body
+{
+    padding-top: 50px;
+}
+
+.centered
+{
+    text-align: center;
+    margin: auto;
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.lead
+{
+    font-size: 1.75em;
+}
+
+h1
+{
+    font-size: 5em;
+}
