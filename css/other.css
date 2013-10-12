@@ -28,3 +28,8 @@ h1.mainheader
 {
     font-size: 5em;
 }
+
+.navbar-brand
+{
+    margin-right: 30px;
+}
