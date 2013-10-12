@@ -11,22 +11,10 @@ body
 
 .thumbnail {
     border: 0 none;
-    box-shadow: none;
-    background: transparent;
 }
 
 .thumbnail:hover {
-    background-color: #111;
-}
-
-.lead
-{
-    font-size: 1.75em;
-}
-
-h1.mainheader
-{
-    font-size: 5em;
+    background-color: #222;
 }
 
 .navbar-brand
@@ -35,11 +23,6 @@ h1.mainheader
 }
 
 @media(max-width:767px){
-    .jumbotron {
-	padding: 10px;
-    }
-}
-@media(min-width:768px){
     .jumbotron {
 	padding: 10px;
     }
