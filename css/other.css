@@ -15,6 +15,10 @@ body
     background: transparent;
 }
 
+.thumbnail:hover {
+    background-color: #111;
+}
+
 .lead
 {
     font-size: 1.75em;
