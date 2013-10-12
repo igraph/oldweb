@@ -17,6 +17,7 @@
           rel='stylesheet' type='text/css'>
     <link href="css/other.css" rel="stylesheet">
     <link href="css/affix.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements 
          and media queries -->
@@ -80,7 +81,7 @@
 
     {{content}}
 
-    <div class="container">
+    <div class="container footer">
       <div class="row">
         <div class="col-xs-6">
         </div>
@@ -96,5 +97,17 @@
     <script src="js/jquery-2.0.3.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/affix.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var ca=$( ".thumbnail" ).find('.caption');
+        setTimeout(function () { ca.addClass('flipOutY'); }, 500);
+        $( ".thumbnail" ).mouseenter(function() {
+          $(this).find('.caption').removeClass("flipOutY").addClass("flipInY").show();
+        })
+        .mouseleave(function() {
+          $(this).find('.caption').removeClass("flipInY").addClass("flipOutY");
+});
+})    
+    </script>
   </body>
 </html>

@@ -9,14 +9,6 @@ body
     margin: auto;
 }
 
-.thumbnail {
-    border: 0 none;
-}
-
-.thumbnail:hover {
-    background-color: #222;
-}
-
 .navbar-brand
 {
     margin-right: 30px;
@@ -31,4 +23,39 @@ body
     .jumbotron {
 	padding: 20px;
     }
+}
+
+.thumbnail {
+    border: 0 none;
+    position: relative;
+}
+
+.thumbnail img {
+    opacity: .35;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    -ms-transition: opacity .25s ease-in-out;
+    -o-transition: opacity .25s ease-in-out;
+}
+
+.thumbnail img:hover {
+    opacity: 1;
+}
+
+.caption {
+    position:absolute;
+    bottom:-50px;
+    right:0;
+    background:rgba(79, 189, 79, 0.75);
+    width:100%;
+    height:auto;
+    padding:2%;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+
+.footer {
+    margin-top: 100px;
 }
