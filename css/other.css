@@ -33,3 +33,19 @@ h1.mainheader
 {
     margin-right: 30px;
 }
+
+@media(max-width:767px){
+    .jumbotron {
+	padding: 10px;
+    }
+}
+@media(min-width:768px){
+    .jumbotron {
+	padding: 10px;
+    }
+}
+@media(min-width:992px){
+    .jumbotron {
+	padding: 20px;
+    }
+}
