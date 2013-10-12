@@ -99,8 +99,6 @@
     <script src="js/affix.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
-        var ca=$( ".thumbnail" ).find('.caption');
-        setTimeout(function () { ca.addClass('flipOutY'); }, 500);
         $( ".thumbnail" ).mouseenter(function() {
           $(this).find('.caption').removeClass("flipOutY").addClass("flipInY").show();
         })

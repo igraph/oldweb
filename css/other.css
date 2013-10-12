@@ -50,6 +50,7 @@ body
     background:rgba(79, 189, 79, 0.75);
     width:100%;
     height:auto;
+    display: none;
     padding:2%;
     text-align:center;
     color:#fff !important;
