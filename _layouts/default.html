@@ -25,6 +25,13 @@
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
+
+  <script>
+    var shiftWindow = function() { scrollBy(0, -70) };
+    window.addEventListener("hashchange", shiftWindow);
+    function load() { if (window.location.hash) shiftWindow(); }
+  </script>
+
   </head>
 
   <body>
