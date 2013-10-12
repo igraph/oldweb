@@ -31,7 +31,7 @@ body
 }
 
 .thumbnail img {
-    opacity: .35;
+    opacity: .35 cv http://www.igraph.org/main.html;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
@@ -59,4 +59,22 @@ body
 
 .footer {
     margin-top: 100px;
+}
+
+.gist .gist-file .gist-data {
+    background-color: #e8e8e8 !important;
+    font-size: 70% !important;
+}
+
+.gist .gist-file .gist-data .line-numbers {
+    background-color: #e8e8e8 !important;
+    color: #aaa !important;
+}
+
+.gist {
+    line-height: 1.2;
+}
+
+.gist .line-data {
+    background: #e8e8e8;
 }
