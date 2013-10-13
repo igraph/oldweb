@@ -11,7 +11,14 @@ title: igraph &ndash; Network analysis software
            data-spy="affix">
         <ul class="nav bs-sidenav">
           
-          <li><a href="#startr">Get started with R</a></li>
+          <li><a href="#startr">Get started with R</a>
+            <ul class="nav">
+              <li><a href="#rinstall">Installation</a></li>
+              <li><a href="#rreq">Requirements</a></li>
+              <li><a href="#rreqopt">Optional requirements</a></li>
+              <li><a href="#rdoc1">Start learning</a></li>
+            </ul>
+          </li>
           <li><a href="#startpy">Get started with Python</a></li>
           <li><a href="#startc">Get started with C</a></li>
           <li>
@@ -22,6 +29,9 @@ title: igraph &ndash; Network analysis software
               <li><a href="#cmanual">C reference manual</a></li>
             </ul>
           </li>
+          <li><a href="#downloads">Downloads</a></li>
+          <li><a href="#help">Getting help</a></li>
+          <li><a href="#contribute">Contribute</a></li>
         </ul>
       </div>
     </div>
@@ -33,14 +43,30 @@ title: igraph &ndash; Network analysis software
           <h1 id="startr">Get started with R</h1>
         </div>
 
+        <h3 id="rinstall">Installation</h3>
         <p>
-          First install the igraph R package from CRAN. Open up an R
-          session and type in (or copy and paste) the following code.
+          igraph is on CRAN and can be installed from within R:
         </p>
         <p> {% gist 6952578 %} </p>
+
+        <h3 id="rreq">Requirements</h3>
+        <p>On Linux (and other Unix-like systems, but not on OSX),
+          a C and C++ compiler is needed, and also the tool
+          <code>make</code>. On Debian and Ubuntu Linux the 
+          <code>build-essential</code> package is sufficient</p>
+
+        <h3 id="rreqopt">Optional requirements</h3>
         <p>
-          Then you can maybe start learning igraph by reading the
-          <a href=""><code>?igraph</code></a> manual page first.
+          On Linux (and other Unix-like systems, but not on OSX), 
+          the <code>libxml2</code> library, including header files,
+          is needed for the ability of reading GraphML files. On
+          Ubuntu and Debian Linux the <code>lixml2</code> and
+          <code>libxml2-dev</code> packages are needed.
+        </p>
+
+        <h3 id="rdoc1">Start learning</h3>
+        <p>
+          <a href=""><code>igraph</code></a> manual page.
         </p>
 
         <div class="page-header">
