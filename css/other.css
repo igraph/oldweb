@@ -57,14 +57,39 @@ body
     z-index:2;
 }
 
-.footer {
-    margin-top: 100px;
+@media(max-width:767px){
+    .lead {
+	font-size: 90%;
+    }
+}
+@media(max-width:991px) {
+    .lead {
+	font-size: 100%;
+    }
+}
+@media(min-width:992px){
+    .lead {
+	font-size: 150%;
+    }
 }
 
-.gist .gist-file .gist-data {
-    font-size: 70% !important;
+.footer {
+    margin-top: 100px;
 }
 
 .gist {
     line-height: 1.2;
 }
+
+@media(min-width:768px) {
+    .bs-docs-section {
+	font-size: 140%;
+    }
+    .bs-sidebar {
+	font-size: 140%;
+    }
+    .gist .gist-file .gist-data {
+	font-size: 80% !important;
+    }
+}
+
