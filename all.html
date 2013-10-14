@@ -51,22 +51,42 @@ title: igraph &ndash; Network analysis software
 
         <h3 id="rreq">Requirements</h3>
         <p>On Linux (and other Unix-like systems, but not on OSX),
-          a C and C++ compiler is needed, and also the tool
+          a C and a C++ compiler is needed, and also the tool
           <code>make</code>. On Debian and Ubuntu Linux the 
-          <code>build-essential</code> package is sufficient</p>
+          <code>build-essential</code> package installs these.</p>
 
         <h3 id="rreqopt">Optional requirements</h3>
+
         <p>
-          On Linux (and other Unix-like systems, but not on OSX), 
-          the <code>libxml2</code> library, including header files,
-          is needed for the ability of reading GraphML files. On
-          Ubuntu and Debian Linux the <code>lixml2</code> and
-          <code>libxml2-dev</code> packages are needed.
+          <ul>
+            <li>On Linux (and other Unix-like systems, but not on OSX), 
+              the <code>libxml2</code> library, including header files,
+              is needed for the ability of reading GraphML files. On
+              Ubuntu and Debian Linux the <code>lixml2</code> and
+              <code>libxml2-dev</code> packages are needed.</li>
+            <li>The <code>tcltk</code> R package is needed for
+              <code>tkplot</code> and <code>tkigraph</code> to
+              work.</li>
+            <li>The <code>rgl</code> R package is needed for
+              <code>rglplot</code> to work.</li>
+            <li>The <code>ape</code> package is needed to plot nice
+              dendrograms with <code>dendPlot</code>.</li>
+          </ul>
         </p>
 
-        <h3 id="rdoc1">Start learning</h3>
+        <h3 id="rdoc1">Tutorials</h3>
+
         <p>
-          <a href=""><code>igraph</code></a> manual page.
+          <ul>
+            <li>Manual pages <a href=""><code>igraph</code></a> and
+              <a href=""><code>graph.structure</code></a> are a good place
+              to start.</li>
+            <li>Some screenshots and examples are 
+              <a href="">here.</a></li>
+            <li>Type in <code>demo(package="igraph")</code> 
+              (or <code>igraphdemo()</code> if you have
+              <code>tcltk</code>) to get a list of demos.</li>
+          </ul>
         </p>
 
         <div class="page-header">
