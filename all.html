@@ -16,7 +16,7 @@ title: igraph &ndash; Network analysis software
               <li><a href="#rinstall">Installation</a></li>
               <li><a href="#rreq">Requirements</a></li>
               <li><a href="#rreqopt">Optional requirements</a></li>
-              <li><a href="#rdoc1">Start learning</a></li>
+              <li><a href="#rdoc1">Tutorials</a></li>
             </ul>
           </li>
           <li><a href="#startpy">Get started with Python</a></li>
@@ -64,13 +64,14 @@ title: igraph &ndash; Network analysis software
               is needed for the ability of reading GraphML files. On
               Ubuntu and Debian Linux the <code>lixml2</code> and
               <code>libxml2-dev</code> packages are needed.</li>
-            <li>The <code>tcltk</code> R package is needed for
-              <code>tkplot</code> and <code>tkigraph</code> to
-              work.</li>
-            <li>The <code>rgl</code> R package is needed for
-              <code>rglplot</code> to work.</li>
-            <li>The <code>ape</code> package is needed to plot nice
-              dendrograms with <code>dendPlot</code>.</li>
+            <li>The {% include rbasepkg p="tcltk" %} R package is needed for
+              {% include rfun f="tkplot" %} and 
+              {% include rfun f="tkigraph" %} to work.</li>
+            <li>The {% include rpkg p="rgl" %} R package is needed for
+              {% include rfun f="rglplot" %} to work.</li>
+            <li>The {% include rpkg p="ape" %} package is needed to
+              plot nice dendrograms with 
+              {% include rfun f="dendPlot" %}.</li>
           </ul>
         </p>
 
@@ -78,14 +79,16 @@ title: igraph &ndash; Network analysis software
 
         <p>
           <ul>
-            <li>Manual pages <a href=""><code>igraph</code></a> and
-              <a href=""><code>graph.structure</code></a> are a good place
+            <li>Manual pages {% include rman p="igraph" %} and
+              {% include rman p="graph.structure" %} are good places
               to start.</li>
             <li>Some screenshots and examples are 
               <a href="">here.</a></li>
             <li>Type in <code>demo(package="igraph")</code> 
-              (or <code>igraphdemo()</code> if you have
-              <code>tcltk</code>) to get a list of demos.</li>
+              (or use {% include rfun f="igraphdemo" %} if you have
+              <span style="white-space:nowrap;">
+                {% include rbasepkg p="tcltk" %})</span> to get a list of
+              demos.</li>
           </ul>
         </p>
 
